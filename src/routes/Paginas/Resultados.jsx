@@ -23,8 +23,14 @@ const Resultados=()=>{
 
     return(
         <>
-        <h1>Gráficos</h1>
-        <SensorChart data={temperatura}/>
+        <div className="grafico">
+            <h1>Gráficos</h1>
+            <SensorChart data={temperatura}/>
+
+
+
+            
+        </div>
 
         </>
     )
